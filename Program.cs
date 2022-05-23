@@ -10,6 +10,7 @@ namespace ConsoleApp1_Github
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
             Console.WriteLine("Hello");
             Math math = new Math();
             Console.WriteLine("Add result is"+math.Add(2,3));
